@@ -22,6 +22,7 @@ GH_PROJECT=	irssi-icb
 GH_TAGNAME=	c4e2ea8
 
 GNU_CONFIGURE=	yes
+CONFIGURE_ARGS= --with-irssi=${LOCALBASE}/include/irssi
 INSTALL_TARGET=	install-strip
 
 PLIST_FILES=	lib/irssi/modules/libicb_core.so \
