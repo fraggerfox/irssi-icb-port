@@ -25,7 +25,7 @@ Credits
 
 * The irssi-icb plugin was originally written by [Jonathan Perkin][2]
 * The one used by this script is a fixed variant by [Marcus Glocker][3]
-* Thanks to trouble and _arthur_ for helping me come up with the port package and a
+* Thanks to `trouble` and `_arthur_` for helping me come up with the port package and a
   machine to test the port development.
 
 License
