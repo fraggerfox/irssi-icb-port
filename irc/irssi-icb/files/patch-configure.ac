@@ -1,6 +1,6 @@
---- configure.ac.orig	2017-01-22 01:27:28.082720000 +0530
-+++ configure.ac	2017-01-22 01:27:53.918321000 +0530
-@@ -19,23 +19,12 @@
+--- configure.ac.orig	2017-01-22 13:24:58 UTC
++++ configure.ac
+@@ -19,23 +19,12 @@ AC_ARG_WITH([irssi],
              [],
              [with_irssi=no])
  
