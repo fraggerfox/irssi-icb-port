@@ -17,6 +17,7 @@ RUN_DEPENDS=	irssi:irc/irssi
 USES=		autoreconf libtool pkgconfig
 USE_LDCONFIG=	yes
 USE_GNOME=	glib20
+
 USE_GITHUB=	yes
 GH_ACCOUNT=	mglocker
 GH_PROJECT=	irssi-icb
