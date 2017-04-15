@@ -10,7 +10,7 @@ COMMENT=	Irssi plugin for connecting to ICB network
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/COPYING
 
-BUILD_DEPENDS=	irssi:irc/irssi
+BUILD_DEPENDS=	${LOCALBASE}/include/irssi/src/common.h:irc/irssi:irc/irssi
 RUN_DEPENDS=	irssi:irc/irssi
 
 USES=		autoreconf libtool pkgconfig
@@ -26,6 +26,8 @@ CONFIGURE_ARGS= --with-irssi=${LOCALBASE}/include/irssi
 INSTALL_TARGET=	install-strip
 
 PLIST_FILES=	lib/irssi/modules/libicb_core.so \
-		lib/irssi/modules/libfe_icb.so
+		lib/irssi/modules/libicb_core.a \
+		lib/irssi/modules/libfe_icb.so \
+		lib/irssi/modules/libfe_icb.a
 
 .include <bsd.port.mk>
