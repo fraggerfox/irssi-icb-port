@@ -19,7 +19,6 @@ USE_GNOME=	glib20
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	mglocker
-GH_PROJECT=	irssi-icb
 GH_TAGNAME=	c4e2ea8
 
 GNU_CONFIGURE=	yes
