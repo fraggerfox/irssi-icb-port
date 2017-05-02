@@ -1,7 +1,7 @@
 irssi-icb-port
 ==============
 
-FreeBSD Ports script for Irrsi's ICB Plugin.
+FreeBSD [Ports][4] script for Irrsi's ICB Plugin.
 
 You can find the irssi-icb plugin [here][1]
 
@@ -37,3 +37,4 @@ BSD 2-clause. See LICENSE.
 [1]: https://github.com/mglocker/irssi-icb
 [2]: https://github.com/jperkin
 [3]: https://github.com/mglocker
+[4]: https://www.freshports.org/irc/irssi-icb
