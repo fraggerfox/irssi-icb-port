@@ -1,4 +1,4 @@
-# $FreeBSD$
+# $FreeBSD: head/irc/irssi-icb/Makefile 438740 2017-04-17 18:37:55Z philip $
 
 PORTNAME=	irssi-icb
 PORTVERSION=	0.17
@@ -22,7 +22,7 @@ GH_ACCOUNT=	mglocker
 GH_TAGNAME=	c4e2ea8
 
 GNU_CONFIGURE=	yes
-CONFIGURE_ARGS= --disable-static --with-irssi=${LOCALBASE}/include/irssi
+CONFIGURE_ARGS=	--disable-static --with-irssi=${LOCALBASE}/include/irssi
 INSTALL_TARGET=	install-strip
 
 PLIST_FILES=	lib/irssi/modules/libicb_core.so \
