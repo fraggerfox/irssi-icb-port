@@ -1,4 +1,4 @@
-# $FreeBSD: head/irc/irssi-icb/Makefile 460717 2018-02-02 17:37:28Z brd $
+# $FreeBSD: head/irc/irssi-icb/Makefile 502486 2019-05-24 18:16:54Z swills $
 
 PORTNAME=	irssi-icb
 PORTVERSION=	0.17
