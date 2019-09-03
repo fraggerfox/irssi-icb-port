@@ -1,11 +1,11 @@
-# $FreeBSD: head/irc/irssi-icb/Makefile 502486 2019-05-24 18:16:54Z swills $
+# $FreeBSD: head/irc/irssi-icb/Makefile 510918 2019-09-03 03:11:09Z fox $
 
 PORTNAME=	irssi-icb
 PORTVERSION=	0.17
 PORTREVISION=	2
 CATEGORIES=	irc
 
-MAINTAINER=	santhosh.raju@gmail.com
+MAINTAINER=	fox@FreeBSD.org
 COMMENT=	Irssi plugin for connecting to ICB network
 
 LICENSE=	GPLv2
