@@ -1,5 +1,3 @@
-# $FreeBSD: head/irc/irssi-icb/Makefile 510918 2019-09-03 03:11:09Z fox $
-
 PORTNAME=	irssi-icb
 PORTVERSION=	0.17
 PORTREVISION=	2
